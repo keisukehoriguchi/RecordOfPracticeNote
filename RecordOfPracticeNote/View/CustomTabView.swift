@@ -15,7 +15,7 @@ struct CustomTabView: View {
                     Image(systemName: "list.dash")
                     Text("Posts")
                 }
-            ResultView()
+            ResultView(weightValue: 0, categoryValue: 0, type: true)
                 .tabItem {
                     Image(systemName: "waveform.path.ecg.rectangle.fill")
                     Text("Result")

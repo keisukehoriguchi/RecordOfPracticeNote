@@ -9,6 +9,6 @@ import Foundation
 
 struct Practice {
     var name:String
-    var category:Category
+    var category:Propose
     var type:Bool
 }

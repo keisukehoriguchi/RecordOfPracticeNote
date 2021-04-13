@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		04687419261D61FF009CCE32 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04687418261D61FF009CCE32 /* Practice.swift */; };
-		0468741C261D6282009CCE32 /* Purpose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468741B261D6282009CCE32 /* Purpose.swift */; };
 		0468741F261D6974009CCE32 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468741E261D6974009CCE32 /* Record.swift */; };
 		04687424261D6FF2009CCE32 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04687423261D6FF1009CCE32 /* Setting.swift */; };
 		04687427261D70D5009CCE32 /* MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04687426261D70D5009CCE32 /* MyPage.swift */; };
 		0468742B261D7627009CCE32 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468742A261D7627009CCE32 /* ProfileView.swift */; };
 		0469830F2621B915009576A5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469830E2621B915009576A5 /* Extension.swift */; };
+		0469A5122622D8B400E71697 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469A5112622D8B400E71697 /* Message.swift */; };
+		046A06DB2622B52600CFF612 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A06DA2622B52600CFF612 /* Category.swift */; };
 		048730EF2621803000DC79BC /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048730EE2621803000DC79BC /* TweetView.swift */; };
 		04886F6B261D3FDD0069E77A /* RecordOfPracticeNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04886F6A261D3FDD0069E77A /* RecordOfPracticeNoteApp.swift */; };
 		04886F6D261D3FDD0069E77A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04886F6C261D3FDD0069E77A /* ContentView.swift */; };
@@ -30,12 +31,13 @@
 
 /* Begin PBXFileReference section */
 		04687418261D61FF009CCE32 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
-		0468741B261D6282009CCE32 /* Purpose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purpose.swift; sourceTree = "<group>"; };
 		0468741E261D6974009CCE32 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		04687423261D6FF1009CCE32 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		04687426261D70D5009CCE32 /* MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage.swift; sourceTree = "<group>"; };
 		0468742A261D7627009CCE32 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0469830E2621B915009576A5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0469A5112622D8B400E71697 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		046A06DA2622B52600CFF612 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		048730EE2621803000DC79BC /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
 		04886F67261D3FDD0069E77A /* RecordOfPracticeNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordOfPracticeNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04886F6A261D3FDD0069E77A /* RecordOfPracticeNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordOfPracticeNoteApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0469A514262569C400E71697 /* RepositoryAndOther */ = {
+			isa = PBXGroup;
+			children = (
+				0469830E2621B915009576A5 /* Extension.swift */,
+			);
+			path = RepositoryAndOther;
+			sourceTree = "<group>";
+		};
 		04886F5E261D3FDD0069E77A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				04886F6A261D3FDD0069E77A /* RecordOfPracticeNoteApp.swift */,
+				0469A514262569C400E71697 /* RepositoryAndOther */,
 				04886F90261D575D0069E77A /* Model */,
 				04886F91261D576E0069E77A /* View */,
 				04886F6E261D3FDE0069E77A /* Assets.xcassets */,
@@ -106,7 +117,6 @@
 				04886F88261D533C0069E77A /* PracticeViewCell.swift */,
 				048730EE2621803000DC79BC /* TweetView.swift */,
 				0468742A261D7627009CCE32 /* ProfileView.swift */,
-				0469830E2621B915009576A5 /* Extension.swift */,
 			);
 			path = ViewParts;
 			sourceTree = "<group>";
@@ -116,9 +126,10 @@
 			children = (
 				04886F8D261D57580069E77A /* SampleData.swift */,
 				04886F92261D57B40069E77A /* User.swift */,
+				046A06DA2622B52600CFF612 /* Category.swift */,
 				04687418261D61FF009CCE32 /* Practice.swift */,
-				0468741B261D6282009CCE32 /* Purpose.swift */,
 				0468741E261D6974009CCE32 /* Record.swift */,
+				0469A5112622D8B400E71697 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 				04886F7B261D40050069E77A /* FollowersTweet.swift in Sources */,
 				04886F85261D517B0069E77A /* PracticesView.swift in Sources */,
 				0468741F261D6974009CCE32 /* Record.swift in Sources */,
+				0469A5122622D8B400E71697 /* Message.swift in Sources */,
 				04886F6D261D3FDD0069E77A /* ContentView.swift in Sources */,
 				04687424261D6FF2009CCE32 /* Setting.swift in Sources */,
 				04886F81261D4E950069E77A /* ResultView.swift in Sources */,
@@ -218,8 +230,8 @@
 				04886F93261D57B40069E77A /* User.swift in Sources */,
 				04886F89261D533C0069E77A /* PracticeViewCell.swift in Sources */,
 				0469830F2621B915009576A5 /* Extension.swift in Sources */,
+				046A06DB2622B52600CFF612 /* Category.swift in Sources */,
 				04886F7E261D46710069E77A /* CustomTabView.swift in Sources */,
-				0468741C261D6282009CCE32 /* Purpose.swift in Sources */,
 				04687419261D61FF009CCE32 /* Practice.swift in Sources */,
 				04687427261D70D5009CCE32 /* MyPage.swift in Sources */,
 				048730EF2621803000DC79BC /* TweetView.swift in Sources */,

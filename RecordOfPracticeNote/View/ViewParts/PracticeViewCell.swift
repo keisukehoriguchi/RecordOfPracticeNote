@@ -11,9 +11,11 @@ struct PracticeViewCell: View {
     var color: Color
     var body: some View {
         Rectangle()
-            .frame(width: 200, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-            .foregroundColor(color)
+            .frame(width: 220, height: 130)
+            .foregroundColor(.white)
             .cornerRadius(20)
+            .shadow(radius: 5, x: 2, y: 2)
+            .padding(.all, 8)
     }
 }
 

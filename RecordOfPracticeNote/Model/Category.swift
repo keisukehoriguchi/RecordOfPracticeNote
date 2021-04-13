@@ -1,13 +1,13 @@
 //
-//  Purpose.swift
+//  Category.swift
 //  RecordOfPracticeNote
 //
-//  Created by Keisuke Horiguchi on 2021/04/07.
+//  Created by Keisuke Horiguchi on 2021/04/11.
 //
-//
+
 import Foundation
 
-struct Category {
+struct Propose {
     var categoryValue: Int
     var categoryName: RawCategory {
         return RawCategory(rawValue: categoryValue)!
@@ -35,7 +35,7 @@ struct Category {
             case .illustration:
                 return NSLocalizedString("イラスト", comment: "")
             case .movie_animation:
-                return NSLocalizedString("動画/アニメーション製作", comment: "")
+                return NSLocalizedString("動画/アニメーション", comment: "")
             case .script_comic_novel:
                 return NSLocalizedString("脚本/漫画/小説", comment: "")
             case .createMusic:

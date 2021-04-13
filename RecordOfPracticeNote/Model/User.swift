@@ -18,7 +18,6 @@ struct User:Codable {
     mutating func update(_ rawWeight: RawWeight) {
         weightValue = rawWeight.rawValue
     }
-    
     enum RawWeight: Int {
         case lightweight
         case welterweight
@@ -38,4 +37,5 @@ struct User:Codable {
             }
         }
     }
+
 }

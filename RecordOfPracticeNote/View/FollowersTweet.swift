@@ -27,13 +27,13 @@ struct FollowersTweet: View {
                     print("onSearching")
                 }
             }
-            List{
+            .padding(.all, 10.0)
+            ScrollView{
                 ForEach(0 ..< SampleData.shared.othrRecords.count) { index in
                     TweetView(record: SampleData.shared.$othrRecords[index])
                 }
             }
         }
-        .padding(.all, 10.0)
     }
 }
 

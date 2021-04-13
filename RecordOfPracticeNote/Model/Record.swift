@@ -10,8 +10,10 @@ import Foundation
 struct Record {
     var user:User
     var practice:Practice
-    var date:Date
+    var recordID:UUID
+    var timeInterval:TimeInterval
     var notice:String
     var next:String
     var attachedFile:String
+    var date:Date
 }

@@ -41,7 +41,7 @@ struct PracticesView: View {
                     Image(systemName: "plus.circle.fill").resizable()
             }).frame(width: 80, height: 80)
             }
-            .padding(.all, 5)
+            .padding(.all, 8)
         }
     }
 }
